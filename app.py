@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Initialize the OpenAI API client
-openai.api_key = "OPEN_API_KEY"
+api_key = os.environ.get('OPENAI_API_KEY')
 
 @app.route("/sms", methods=["POST"])
 def sms():
