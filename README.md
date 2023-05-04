@@ -3,8 +3,8 @@ Communicate with chatGPT via SMS using Twilio, Flask, and OpenAI API.
 
 Suggested Steps:
 1. Create a PythonAnywhere account for free: https://www.pythonanywhere.com/
-2. Create a free Twilio account and set up a phone #.
-3. Create an OpenAI account and obtain an API key. You will likely need to have a paid account to use the API.
+2. Create a free Twilio account and set up a phone #: https://www.twilio.com/en-us
+3. Create an OpenAI account and obtain an API key. You will likely need to have a paid account to use the API: https://openai.com/blog/chatgpt
 4. Create a new web app on PythonAnywhere
 5. Add the provided "app.py" code from this repository into the working directory of the web app. 
 6. Log in to your PythonAnywhere account and navigate to the "Web" tab for your app.
